@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <header>
+        <div class="flex">
+            <p>Mon compte</p>
+            <img src="img/padlock.svg" alt="">
+        </div>
+        <div class="flex">
+            <img src="img/urgent.svg" alt="">
+            <p>Derniers jours pour votre DNAS !</p>
+        </div>
+        <div>
+            <img src="img/mail.svg" alt="">
+            <a href="#">Messagerie (2)</a>
+            <button type="button" class="deco">Déconnexion</button>
+            <p>Entreprise XXXXXXXX : N° Siret 000000000</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#"><img src="img/home.svg" alt=""></a>
+        <a href="#">mes infos</a>
+        <a href="#">mes autorisations d'accès</a>
+        <a href="#">mes salariés</a>
+        <a href="#">mes cotisations</a>
+        <a href="#">mes contrats</a>
+        <a href="#">mes opérations</a>
+    </nav>
+    <h1>Inscrivez-vous au télépaiement</h1>
+    <form action="../POST">
+        <label for="id-lastname">Nom de famille</label>
+        <input type="text" id="id-lastname" name="lastname">
+
+        <label for="id-firstname">Prénom</label>
+        <input type="text" id="id-firstname" name="firstname">
+
+        <label for="id-phone">Téléphone</label>
+        <input type="tel" id="id-phone" name="phone">
+
+        <label for="id-email">E-mail</label>
+        <input type="mail" id="id-email" name="email">
+
+        <label for="id-adress">Adresse</label>
+        <input type="text" id="id-adress" name="adress">
+
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>

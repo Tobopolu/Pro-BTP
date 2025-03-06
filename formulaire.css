@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Comic Neue", cursive;
+    font-size: 14px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header div {
+    align-items: center;
+}
+img {
+    width: 25px;
+}
+.flex {
+    display: flex;
+}
+.deco{
+    background-color: white;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+button {
+    background-color: white;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 1);
+    margin-top: 12px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    box-shadow: 3px 3px 0px 3px rgba(0, 0, 0, 1);
+    margin: 0 auto 30px;
+    width: max-content;
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+form {
+    width: 800px;
+    border: 3px solid black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 6px auto;
+}
